@@ -1,8 +1,9 @@
 {
-  "name": "codewarsjest",
+  "name": "tsjest",
   "version": "1.0.0",
-  "description": "CodeWars TS Jest",
+  "description": "CodeWars LeetCode TS Jest",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
     "compile": "tsc",
     "test": "jest"

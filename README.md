@@ -1,2 +1,2 @@
 # TS-Jest-Boilerplate
-Jest + TS boilerplate for testing simple functions from CodeWars and LeetCode
+Jest + TS boilerplate for testing functions from CodeWars and LeetCode
