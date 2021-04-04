@@ -12,5 +12,5 @@ npx jest
 ```
 or
 ```
-npm run tes
+npm run test
 ```
