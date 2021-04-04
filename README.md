@@ -3,14 +3,14 @@ Jest + TypeScript boilerplate for testing functions from CodeWars and LeetCode
 
 For install:
 ```
-  npm install
+npm install
 ```
 
 For run tests:
 ```
-  npx jest
+npx jest
 ```
 or
 ```
-  npm run tes
+npm run tes
 ```
