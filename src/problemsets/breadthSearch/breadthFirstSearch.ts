@@ -1,9 +1,6 @@
 export type Graph = number[][]
 
-export const breadthFirstSearch = (
-  graph: Graph,
-  rootNode: number,
-) => {
+export const breadthFirstSearch = (graph: Graph, rootNode: number) => {
   const nodesLen = {}
 
   for (let i = 0; i < graph.length; i++) {
@@ -34,7 +31,5 @@ export const breadthFirstSearch = (
     }
   }
 
-  console.log(nodesLen)
-  
   return nodesLen
 }
