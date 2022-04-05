@@ -1,23 +1,28 @@
 {
-  "name": "tsjest",
-  "version": "1.0.0",
-  "description": "CodeWars LeetCode TS Jest",
-  "main": "index.ts",
-  "type": "module",
-  "scripts": {
-    "compile": "tsc",
-    "test": "jest"
-  },
-  "keywords": [
-    "ts",
-    "jest"
-  ],
-  "author": "NeoNewb",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/jest": "^26.0.19",
-    "jest": "^26.6.3",
-    "ts-jest": "^26.4.4",
-    "typescript": "^4.1.3"
-  }
+	"name": "leet-code-problems",
+	"version": "1.0.0",
+	"description": "LeetCode problems with TS and Jest",
+	"main": "index.ts",
+	"type": "module",
+	"scripts": {
+		"compile": "tsc",
+		"lint": "eslint **/*.*",
+		"lint:fix": "eslint **/*.* --fix",
+		"test": "jest"
+	},
+	"keywords": [
+		"ts",
+		"jest"
+	],
+	"author": "NeoNewb",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/jest": "^27.4.1",
+		"@typescript-eslint/eslint-plugin": "^5.18.0",
+		"@typescript-eslint/parser": "^5.18.0",
+		"eslint": "^8.12.0",
+		"jest": "^27.5.1",
+		"ts-jest": "^27.1.4",
+		"typescript": "^4.6.3"
+	}
 }
