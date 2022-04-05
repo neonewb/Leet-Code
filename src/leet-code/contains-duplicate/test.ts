@@ -1,24 +1,24 @@
-import { trap } from './index'
+import { containsDuplicate } from './index'
 
-describe('Trapping Rain Water', () => {
-	const input = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
-	const output = 6
+describe('Contains Duplicate', () => {
+	const input = [1, 2, 3, 1]
+	const output = true
 
 	test(`${input} => ${output}`, () => {
-		expect(trap(input)).toBe(output)
+		expect(containsDuplicate(input)).toBe(output)
 	})
 
-	const input1 = [4, 2, 0, 3, 2, 5, 0, 4]
-	const output1 = 13
+	const input1 = [1, 2, 3, 4]
+	const output1 = false
 
 	test(`${input1} => ${output1}`, () => {
-		expect(trap(input1)).toBe(output1)
+		expect(containsDuplicate(input1)).toBe(output1)
 	})
 
-	const input2 = [15, 15, 15, 10, 20]
-	const output2 = 5
+	const input2 = [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]
+	const output2 = true
 
 	test(`${input2} => ${output2}`, () => {
-		expect(trap(input2)).toBe(output2)
+		expect(containsDuplicate(input2)).toBe(output2)
 	})
 })
