@@ -1,15 +1,22 @@
 // https://leetcode.com/problems/range-sum-query-immutable/
 
 export class NumArray {
-	constructor(private _nums: number[]) { }
+	private _nums: number[] = []
 
-	sumRange(left: number, right: number): number {		
+	constructor(nums: number[]) {
 		let sum = 0
 
-		for (let i = left; i < right + 1; i++) {
-			sum += this._nums[i]
+		for (let i = 0; i < nums.length; i++) {
+			sum += nums[i]
+			this._nums.push(sum)
+		}
+	}
+
+	sumRange(left: number, right: number): number {		
+		if (left === 0) {
+			return this._nums[right]
 		}
 
-		return sum
+		return this._nums[right] - this._nums[left - 1]
 	}
 }
