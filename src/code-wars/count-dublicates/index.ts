@@ -1,8 +1,6 @@
 // https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1
 
 export const countDublicates = (str: string) => {
-	// console.log(str.match(/([^])\1+/g))
-
 	let result = 0
 	const charsResolved: string[] = []
 	const chars = str.toLowerCase().split('')

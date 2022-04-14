@@ -6,7 +6,6 @@ export const findDisappearedNumbers = (nums: number[]): number[] => {
 	for (const num of new Set(nums)) {
 		result.delete(num)
 	}
-	console.log([...result]);
 
 	return [...result]
 }
