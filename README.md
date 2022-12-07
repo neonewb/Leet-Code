@@ -1,4 +1,4 @@
-# TS-Jest-Boilerplate
+# TS-Jest-Boilerplate for LeetCode
 Jest + TypeScript boilerplate for testing functions from CodeWars and LeetCode
 
 For install:
